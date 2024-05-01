@@ -8,6 +8,8 @@ function setup() {
 function draw() {
   background(220);
   text("Type something and press Enter:", width / 2, height / 2 - 20);
+  text("Wavy Speaker", width / 2, height / 2 - 50);
+   text("Chris & Ale", width / 2, height / 2 - 35);
   text(inputText, width / 2, height / 2 + 20);
 }
 
@@ -56,5 +58,7 @@ function playSynthSound(frequency, volume, duration, waveform) {
     synth.stop(); // Stop the oscillator after the specified duration
   }, duration); // Stop the oscillator after the duration
 }
+
+
 
 
